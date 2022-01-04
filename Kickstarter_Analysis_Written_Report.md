@@ -3,7 +3,7 @@
 ## Overview of Project
 
 ### Purpose
-
+This project aims to help Louise, a playwright, to have a better understanding of her crowdfunding campaign. Through this report Louise could figure out the different campaigns performance relation to their launch dates and their funding goals. And she would mirror those conclusions to future other successful campaigns.  
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date
