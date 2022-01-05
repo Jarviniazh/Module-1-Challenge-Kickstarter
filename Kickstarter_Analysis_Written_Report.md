@@ -9,6 +9,7 @@ This project aims to help Louise, a playwright, to have a better understanding o
 ### Analysis of Outcomes Based on Launch Date
 
 The pivot table is an efficient approach to analyze the relationship between campaign outcomes and their launch date. To make the analysis more reliable, we narrow down the parent category to only one, theater.  And with a line chart we could better understand the analysis outcomes. We could get the following result. 
+![image](https://github.com/Jarviniazh/Module-1-Challenge-Kickstarter-Analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png)
 
   1.	There is 1,369 activities Louise held during the crowdfunding under theater category. And over half of the outcomes are successful, followed by 493 failed cases and 37 canceled one. That means most of activities could raise the amount set by the goals. And only a few were terminated before the deadline. 
   2.	The line of successful cases, with the highest amount at 111, and the lowest at 37, is more fluctuant than the other two. However, for canceled one it shows a most flat line throughout the whole year. 
@@ -21,11 +22,13 @@ The pivot table is an efficient approach to analyze the relationship between cam
 ### Challenges and Difficulties Encountered
 
 #### Difficulty 1
-- Difficulty: When create the pivot table instead of selecting any cell in Kickstarter worksheet, I select the whole worksheet. Therefore, a (blank) display in both row and column (Figure 1), driving me frustrated. It is the first time I see this issue and could not recall the additional step I had done comparing with previous practice. 
+- Difficulty: When create the pivot table instead of selecting any cell in Kickstarter worksheet, I select the whole worksheet. Therefore, a (blank) display in both row and column, driving me frustrated. It is the first time I see this issue and could not recall the additional step I had done comparing with previous practice. 
+   ![Image](https://github.com/Jarviniazh/Module-1-Challenge-Kickstarter-Analysis/blob/main/Resources/Difficulty1.png)
 - Solution: Firstly, I googled why there was a blank in a pivot table. Unfortunately, the most related results were only focus on how to delete the blank did not explain the reason why it showed up. Then I decided to try delete it first and waited to ask the root cause during the office hour. During the delete process, an idea entered my thoughts in a split second that I might select some blank cells when created the pivot table, why not just taking a second chance to insert a new pivot table without any blank cells. It turns out I am on the right track, this time there is no more blank in my new pivot table.
 
 #### Difficulty 2
 - Difficulty: At the time using COUNTIFS(), I did a double check on the grand total of each successful results comparing with the number directly retrieve from =COUNTIFS(Kickstarter!$F:$F,"successful",Kickstarter!$R:$R,"plays"). An obvious difference popped up and reminded me there must be some missing data I should add.
+  ![Image](https://github.com/Jarviniazh/Module-1-Challenge-Kickstarter-Analysis/blob/main/Resources/Difficulty2.png)
 - Solution: I went through the dollar-amount range of the “Goal” to understand the logic of each group and realized that I need to add “equal to” in each formula expect the Less Than 1,000. Since each group dose not have any overlaps, I should include the start and end number. Therefore, I modified my formula from =COUNTIFS(Kickstarter!$F:$F,"successful",Kickstarter!$R:$R,"plays",Kickstarter!$D:$D,">1000",Kickstarter!$D:$D,"<4999") to =COUNTIFS(Kickstarter!$F:$F,"successful",Kickstarter!$R:$R,"plays",Kickstarter!$D:$D,">=1000",Kickstarter!$D:$D,"<=4999"), the problem is successfully solved. 
 
 
