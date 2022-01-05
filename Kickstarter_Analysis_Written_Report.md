@@ -8,6 +8,14 @@ This project aims to help Louise, a playwright, to have a better understanding o
 
 ### Analysis of Outcomes Based on Launch Date
 
+The pivot table is an efficient approach to analyze the relationship between campaign outcomes and their launch date. To make the analysis more reliable, we narrow down the parent category to only one, theater.  And with a line chart we could better understand the analysis outcomes. We could get the following result. 
+
+  1.	There is 1,369 activities Louise held during the crowdfunding under theater category. And over half of the outcomes are successful, followed by 493 failed cases and 37 canceled one. That means most of activities could raise the amount set by the goals. And only a few were terminated before the deadline. 
+  2.	The line of successful cases, with the highest amount at 111, and the lowest at 37, is more fluctuant than the other two. However, for canceled one it shows a most flat line throughout the whole year. 
+  3.	There seems a time trend on both successful and failed outcomes throughout the nine-year campaign. Numbers increase from January to February, then back to almost the same number as January in March. From March to May the outcomes gradually grow until reaching the highest point in May. Later the campaign under theater category experiences a consistent drop until September. 
+  4.	After a marginally rebound in October, the trend of successful outcomes differs from the failed one. The former keeps falling to its lowest level in December, while the later tends to be more fluctuant. 
+
+
 ### Analysis of Outcomes Based on Goals
 
 ### Challenges and Difficulties Encountered
