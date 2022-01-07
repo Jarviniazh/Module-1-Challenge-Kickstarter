@@ -16,8 +16,16 @@ The pivot table is an efficient approach to analyze the relationship between cam
   3.	There seems a time trend on both successful and failed outcomes throughout the nine-year campaign. Numbers increase from January to February, then back to almost the same number as January in March. From March to May the outcomes gradually grow until reaching the highest point in May. Later the campaign under theater category experiences a consistent drop until September. 
   4.	After a marginally rebound in October, the trend of successful outcomes differs from the failed one. The former keeps falling to its lowest level in December, while the later tends to be more fluctuant. 
 
-
 ### Analysis of Outcomes Based on Goals
+
+Besides the launch date, a proper number set to a goal may also impact the success rate of a campaign. In this part we narrow down the target group even further to a subcategory under theater – plays. First, from less than $1,000 to greater than $50,000 we divide the goal to 10 ranges every $5,000, one less than $1,000 and one greater than $50,000, in total 12 ranges. Then we count all numbers of successful, failed, and canceled activities within each range. Afterwards, it is easy to calculate the rate of successful, failed and canceled separately. The graph below shows the analysis results we get. 
+![image](https://github.com/Jarviniazh/Module-1-Challenge-Kickstarter-Analysis/blob/main/Resources/Outcomes_vs_Goals.png)
+
+  1.	Happily, there is none of canceled case among the plays subcategory. And both successful rates and failed rates are quite fluctuant among the 12 ranges. 
+  2.	Successful rates and failed rates share a negative relationship. The successful rates have a peak about 76% when the goal is less than $1,000, then shows a downward trend from following range until 25,00 to $29,999. This line rises rapidly to a constant rate about 67%, which the fundraising goal is less than and equal to $44,999, before dramatically decrease to reach the lowest level of 0 percent between $45,000 to $49,999. In other words, the campaign completely failed with this range. 
+  3.	At the point the goal amount is among $15,000 to $19,999, successful rate is equal to failed rate. After that the failed rate exceed the successful rate.
+  4.	Within $5,000 to $24,999 range, the differences between successful rate and failed rate are less than or equal to 10 percent, the smallest gap in this chart.
+
 
 ### Challenges and Difficulties Encountered
 
@@ -35,9 +43,17 @@ The pivot table is an efficient approach to analyze the relationship between cam
 ## Results
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
+  1. Overall the successful cases are way more than the failed and the canceled ones. And the canceled ones are relatively low that she might not consider seriously during the campaign.
+  2. Summertime (May to September) seems to be a proper campaign season for Louise. During those months she could obtain the greatest number of feedbacks. And the other months the outcomes might fluctuant.
 
 - What can you conclude about the Outcomes based on Goals?
+  - To guarantee a higher successful rate of her fundraising campaign, we suggest Louise set her goal no greater than $19,999, the higher goal will lead to a greater change of failure. Though the lower the mount, the higher successful rate she would obtain, considering the efficiency and her budget, it is better to have a goal no less than $1,000.
 
 - What are some limitations of this dataset?
+  1. The dataset was collected between 2009 to 2017, might not reflect the current circumstances, since the inflation rate rises a lot and people may change their entertainment preferences.
+  2. The dataset contains multiple countries outcomes. Therefore, it is hard to set a general goal of funding goals, due to the different income level and denomination of currency. 
+  3. The different currencies would impact the analysis of the relation between outcomes and their funding goals and decrease the reliability of our conclusion. It is better to set a benchmark currency, then convert the other to that benchmark currency
 
 - What are some other possible tables and/or graphs that we could create?
+  1. Bar chart: easy to compare the data between different outcomes at a glance. Besides understand the trend differences using line chart, we could use bar chart to shows which month or goal range would lead to the highest number of successful.
+  2. Box and Whisker: this graph could help us figure out whether there are any outliers in the dataset, then adjust some analysis approach based on the results.
