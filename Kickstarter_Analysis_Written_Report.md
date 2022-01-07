@@ -3,18 +3,19 @@
 ## Overview of Project
 
 ### Purpose
-This project aims to help Louise, a playwright, to have a better understanding of her crowdfunding campaign. With the finding Louise could figure out the different campaigns performance relation to their launch dates and their funding goals. It may work as reference for the other ones in the same category.  
+This project aims to help Louise, a playwright, to have a better understanding the factors would lead to a successful campaign based on pervious data, so she could start a crowdfunding campaign for her play, Fever. With the finding Louise could figure out the different campaigns’ performance relation to their launch dates and their funding goals under specific categories – theater/play. It may work as reference for the other ones in the same category.  
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date
 
-The pivot table is an efficient approach to analyze the relationship between campaign outcomes and their launch date. To make the analysis more reliable, we narrow down the parent category to only one, theater.  And with a line chart we could better understand the analysis outcomes. We could get the following result. 
+The pivot table is an efficient approach to analyze the relationship between campaign outcomes and their launch date. To make the analysis more reliable, we narrow down the parent category to only one, theater, which Louise’s new play belongs to.  And with a line chart we could better understand the analysis outcomes. We could get the following result. 
 ![image](https://github.com/Jarviniazh/Module-1-Challenge-Kickstarter-Analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png)
 
-  1.	There is 1,369 activities Louise held during the crowdfunding under theater category. And over half of the outcomes are successful, followed by 493 failed cases and 37 canceled one. That means most of activities could raise the amount set by the goals. And only a few were terminated before the deadline. 
+  1.	There are 1,369 activities under theater category. And over half of the outcomes are successful, followed by 493 failed cases and 37 canceled one. That means most of activities could raise the amount set by the goals. And only a few were terminated before the deadline. 
   2.	The line of successful cases, with the highest amount at 111, and the lowest at 37, is more fluctuant than the other two. However, for canceled one it shows a most flat line throughout the whole year. 
-  3.	There seems a time trend on both successful and failed outcomes throughout the nine-year campaign. Numbers increase from January to February, then back to almost the same number as January in March. From March to May the outcomes gradually grow until reaching the highest point in May. Later the campaign under theater category experiences a consistent drop until September. 
+  3.	There seems a time trend on both successful and failed outcomes throughout the nine-year record. Numbers increase from January to February, then back to almost the same number as January in March. From March to May the outcomes gradually grow until reaching the highest point in May. Later the campaign under theater category experiences a consistent drop until September. 
   4.	After a marginally rebound in October, the trend of successful outcomes differs from the failed one. The former keeps falling to its lowest level in December, while the later tends to be more fluctuant. 
+
 
 ### Analysis of Outcomes Based on Goals
 
